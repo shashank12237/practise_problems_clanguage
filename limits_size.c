@@ -1,14 +1,21 @@
-//* we will see limits and size of different data-types
+//* we will see  size of different data-types
 #include<stdio.h>
 #include<limits.h>
 int main()
 {
-    signed int num1=10;
+  long  signed int num1=10;
+  //* long  signed int num1=10; valid
+  //* long long signed int num1=10; valid
 unsigned int num2=10;
-short int num3=20;
+ short int num3=20;
+//^ long short int num3=20; invalid
 long int num4=30;
 double d1=12.33;
-float f1=12.3;
+//^ long double d1=12.33; valid %lf
+//^ signed double d1=12.33; invalid
+ float f1=12.3;
+//* long float f1=12.3; invalid
+//* un/signed float f1=12.3;invalid
 long long l1=44.55;
 long l2=44;
 char ch='A';
