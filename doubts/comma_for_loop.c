@@ -2,7 +2,8 @@
 int main()
 {
  int i=0,j=0,k=0;
- for(i=0,j=-3;i<3,j<3;i++,j++)
+ //for(i=0,j=-3;i<3,j<3;i++,j++)
+ for(i=0,j=-3;i<3||j<3;i++,j++)
  {k=i+j;
  }
  printf("%d",i+j);
