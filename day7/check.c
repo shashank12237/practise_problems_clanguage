@@ -38,9 +38,14 @@ int main(void)
 // for(;i++;)
 // printf("hello \n");
 
+// int x = 3 , z ;
+// z = x++ + ++x;
+// printf ("x = %d z = %d" , x , z );
+
 int x = 3 , z ;
-z = x++ + ++x;
+z = ++x*++x*++x;
 printf ("x = %d z = %d" , x , z );
+
 
 return 0;
 }
