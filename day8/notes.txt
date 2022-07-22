@@ -1,0 +1,2 @@
+1) while , for ==> entry controlled loops 
+2) do-while ==> exit controlled loops 
